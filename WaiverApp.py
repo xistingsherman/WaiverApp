@@ -491,7 +491,7 @@ class PageOne(tk.Frame):
             self.error.grid(row=3,sticky='EW',padx=30,pady=10, columnspan=2)
         else:
             self.error.grid_forget()
-            self.controller.show_frame("PageTwo")aaaaa  BV ,M                     
+            self.controller.show_frame("PageTwo")                   
             self.controller.get_waivers_by_number(numOfWaivers,self.variable.get())
             self.controller.show_frame("PageThree")
 
