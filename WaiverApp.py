@@ -45,7 +45,7 @@ class WaiverApp(tk.Tk):
         self.messages = ""
         self.list = []
         self.imap = ""
-        self.username = "waivers@rosebowlaquatics.org"
+        self.username = ""
         #container.imap
 
         self.frames = {}
